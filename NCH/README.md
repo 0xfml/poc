@@ -1,7 +1,12 @@
 # NCH Software Vulnerability Advisories
 
 ## Affected Software
-**IVM Attendant <5.12** - RCE, Path Traversal + Arbitrary File Delete, Multiple XSS <br>**Axon PBX <2.22** - Path Traversal +Arbitrary File Delete, Multiple XSS <br>**Quorum <2.03** - Path Traversal + Arbitrary File Delete, Multiple XSS, Cleartext Credential Storage <br>**FlexiServer <6.00** - Path Traversal <br>**WebDictate <2.13** - Path Traversal, XSS <br>
+**IVM Attendant <5.12** - RCE, Path Traversal + Arbitrary File Delete, Multiple XSS <br>
+**Axon PBX <2.22** - Path Traversal +Arbitrary File Delete, Multiple XSS <br>
+**Quorum <2.03** - Path Traversal + Arbitrary File Delete, Multiple XSS, Cleartext Credential Storage <br>
+**FlexiServer <6.00** - Path Traversal <br>
+**WebDictate <2.13** - Path Traversal, XSS <br>
+**Reflect CRM <3.01** - Cleartext Credential Storage <br>
 
 _note: all vulnerabilities outlined were tested on up-to-date versions as of Q2 2021, initial vendor responses indicated no fixes would be applied however this may change. Earlier versions were not available for testing so are assumed vulnerable._
 
