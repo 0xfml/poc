@@ -26,3 +26,8 @@ Security Notice: If you setup an admin on IVM the Admin can install other progra
 or access all files on the computer running like any admin can. Do not setup a weblet
 admin for someone who you would not be willing to be admin of the PC.
 ```
+## Recommended Fix
+Use something else
+
+## Notes
+I wasnt able to find any login bypasses to make any of these vulns unauthenticated. All the applications seem to be using the same underlying web server components, including what appeared to be a simple strcmp like call against the login files kept in registry or on disk.
