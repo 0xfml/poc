@@ -38,3 +38,23 @@ Use something else
 
 ## Notes
 I wasnt able to find any login bypasses to make any of these vulns unauthenticated. All the applications seem to be using the same underlying web server components, including what appeared to be a simple strcmp like call against the login details kept in registry or on disk.
+
+## Assigned CVEs
+
+| Application | Version | Vulnerability | CVE(s)* |
+|-------------|---------|:--------------|---------|
+| FlexiServer | v6.00 | Path Traversal | CVE-2021-37439 | 
+| Axon PBX | v2.22 | Path Traversal | CVE-2021-37440, CVE-2021-37441 |
+| Axon PBX | v2.22 | XSS | CVE-2021-37453, CVE-2021-37454, CVE-2021-37455, CVE-2021-37456, CVE-2021-37457, CVE-2021-37458, CVE-2021-37459, CVE-2021-37460, CVE-2021-37461, CVE-2021-37462 |
+| IVM Attendant | v5.12 | Path Traversal | CVE-2021-37442, CVE-2021-37443 |
+| IVM Attendant | v5.12 | RCE | CVE-2021-37444 |
+| IVM Attendant | v5.12 | XSS | CVE-2021-37448, CVE-2021-37449, CVE-2021-37450, CVE-2021-37451 |
+| Quorum | v2.03 | Path Traversal | CVE-2021-37445, CVE-2021-37446, CVE-2021-37447 |
+| Quorum | v2.03 | Cleartext Credential Storage | CVE-2021-37452 |
+| Quorum | v2.03 | XSS | CVE-2021-37463, CVE-2021-37464, CVE-2021-37465, CVE-2021-37466, CVE-2021-37467 |
+| Reflect CRM | v3.01 | Cleartext Credential Storage | CVE-2021-37468 |  
+| WebDictate | v2.13 | Path Traversal | CVE-2021-37469 | 
+| WebDictate | v2.13 | XSS | CVE-2021-37470 | 
+
+
+\* all XSS and path traversals in the same application were reported to MITRE as 'Multiple' to save references, however when recieving the references after review, they were split like this ¯\\\_(ツ)\_/¯
