@@ -76,7 +76,7 @@ if (tn):
 15/2/23 - Vendor reply confirming the behavior, estimating a fixed release in Q2 2023. <br>
 07/04/23 - Vendor pushed updated firmware <br>
 05/05/23 - Advisory released <br>
-
+08/06/23 - Mitre assigns CVE-2023-33553
 
 ### Extra notes
 
